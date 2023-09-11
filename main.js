@@ -21,7 +21,7 @@ function change(text, stage) {
 }
 
 function reset(){
-    change('Hello, Am I speaking with (name)')
+    change('--------------------------------')
     document.getElementById('input').value = ''
 }
 
