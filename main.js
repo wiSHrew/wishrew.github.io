@@ -11,7 +11,7 @@ function check(input) {
         if (input.toUpperCase() == x){
             document.getElementById("input").value = state_names[i]
         }
-        else if(i == max){
+        else if(i == 53){
             document.getElementById("input").value = "bugo ka"
         }
         else{
