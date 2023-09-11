@@ -18,10 +18,11 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+    width:auto;
 }
 input[type=text] {
     font-size: medium;
-    width: 25%;
+    width: 5%;
     text-align: center;
     padding: 12px 20px;
     margin: 8px 0;
