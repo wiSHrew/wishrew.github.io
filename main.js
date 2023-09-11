@@ -5,6 +5,7 @@ let prevText = ""
 const stage_text = ['Hello, Am I speaking with (name)', '']
 
 function check(input) {
+    change(max)
     i = 0
     for(const x of state_codes){
         if (input.toUpperCase() == x){
