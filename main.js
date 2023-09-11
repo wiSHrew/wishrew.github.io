@@ -17,8 +17,6 @@ function check(input) {
 
 function change(text, stage) {
     prevText = document.getElementById("saythis").innerHTML
-
-    if(prevText == )
     document.getElementById("saythis").innerHTML = text;
 }
 
