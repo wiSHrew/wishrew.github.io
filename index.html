@@ -4,23 +4,28 @@
         <H1>DEF NOT CHEATING</H1>
         <script>
             function change(text) {
-              document.getElementById("saythis").innerHTML = text;
+                document.getElementById("saythis").innerHTML = text;
             }
-            </script>
+        </script>
+        <link href="style.css" rel="stylesheet">
+        <script type="module" src="main.js"></script>
     </head>
     <body>
         <button onclick="change('Hello, Am I speaking with (name)')">RESET</button>
         <h2>Say this shit:</h2>
         <h3 id="saythis">Hello, Am I speaking with (name)</h3>
 
-        <button onclick="change('And just to confirm, youre from the state of (state)')">YES</button>
+        <button onclick="change('And just to confirm, you\'re from the state of (state)')">YES</button>
         <button onclick="change('It seems that our system is not yet updated, may I adress this call to you instead')">NO</button>
 
         <h2>Rebuttals</h2>
-        <button onclick="change('And just to confirm, youre from the state of (state)')">WHERE DID YOU GET MY INFORMATION</button>
-        <button onclick="change('And just to confirm, youre from the state of (state)')">YES</button>
-        <button onclick="change('And just to confirm, youre from the state of (state)')">YES</button>
-        <button onclick="change('And just to confirm, youre from the state of (state)')">YES</button>
+        <button onclick="change('More likely, we sort all information online and you requested a quote there. That\’s why we have your basic information because you probably filled out those records and it comes in my screen one line at a time... So, my job is to reach out to you and confirm the information to see if you qualify... So going back... (Take control of the call) ')">WHERE DID YOU GET MY INFORMATION</button>
+        <br><br>
+        <button onclick="change('The best person to answer your question is our licensed agent from your area. He can give you more detailed info regarding pricing, coverage and for other questions you may have. For now, I would need to ask you basic questions to make sure you qualify, okay? Going back.... ')">How much is the monthly premium for the full coverage? </button>
+        <br><br>
+        <button onclick="change('Well I do have a licensed agent waiting on the other line who will give you more detailed information about the program and answer all of your questions because here in my end I only need to ask you some basic questions and after that I will transfer you to one of them. So if you have any further questions please don\’t hesitate to ask okay?')">How much it cost </button>
+        <br><br>
+        <button onclick="change('Well, just so you know (first name) you can potentially get auto insurance even if you have a suspended license, as long as you currently own a vehicle that is still running, I just need to ask you these basic questions to make sure you qualify. So going back... ')">Suspended driver's license </button>
 
     </body>
 </html>
