@@ -9,6 +9,9 @@ function check(input) {
         if (input.toUpperCase() == x){
             document.getElementById("input").value = state_names[i]
         }
+        else if(i == state_codes.length){
+            document.getElementById("input").value = "bugo ka"
+        }
         else{
             i += 1
         }
