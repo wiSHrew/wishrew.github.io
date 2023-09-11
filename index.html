@@ -14,7 +14,7 @@
             <!--State Checker-->
             <input type="text" id="input">
             <br>
-            <button onclick="check(input=document.getElementById('input').value)" id="submit">Check State</button>
+            <button onclick="check(input=document.getElementById('input').value)" id="submit" onfocus="this.value=''">Check State</button>
         </div>
 
         <h2>Rebuttals</h2>
@@ -60,6 +60,7 @@
             <button onclick="change('This will take a few minutes of your time only ')">No time rebuttal </button>
             <!--I did not request for any quote-->
             <button onclick="change('Oh I see. You might not remember because this was requested about few weeks ago or probably a family member of yours requested for a free quote for you')">I did not request for any quote</button>
+            <button onclick="change('Okay the operator will comply with your do not call request.')">DNC</button>
         </div>
     </body>
 </html>
